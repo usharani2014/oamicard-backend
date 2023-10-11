@@ -1,0 +1,5 @@
+#.env
+*.pyc
+.vscode
+media
+static

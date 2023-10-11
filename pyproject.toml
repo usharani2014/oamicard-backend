@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "oamiicards"
+version = "0.1.0"
+description = ""
+authors = ["deepak <deepak@avioxtechnologies.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asgiref = "3.5.2"
+django = "4.1.3"
+pillow = "9.3.0"
+psycopg2-binary = "2.9.5"
+sqlparse = "0.4.3"
+pre-commit = "^2.20.0"
+flake8 = "^6.0.0"
+black = "^22.12.0"
+docformatter = "^1.5.0"
+isort = "^5.11.1"
+mypy = "^0.991"
+pre-commit-hooks = "^4.4.0"
+drf-yasg = "^1.21.4"
+django-cors-headers = "^3.13.0"
+qrcode = "^7.3.1"
+python-dotenv = "^0.21.0"
+django-rest-passwordreset = "^1.3.0"
+gunicorn = "^20.1.0"
+django-import-export = "^3.0.2"
+python-dateutil = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[mypy]
+type = "ignore"
+
+[flake8]
+max-line-length = 200
